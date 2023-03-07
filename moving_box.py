@@ -20,6 +20,7 @@ sustained_h = False
 
 while running:
     surface.fill((0, 0, 0))
+    pygame.draw.rect(surface, colour, pygame.Rect(top, left, 100, 100))
     pygame.display.flip()
     if sustained_h:
         print('Hello World!')
